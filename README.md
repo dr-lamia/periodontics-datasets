@@ -2,7 +2,7 @@
 
 A curated catalogue of publicly discoverable datasets for periodontal research and AI.
 
-**Last reviewed: 26 October 2026.** This first release contains **24 catalogue records**, including six NHANES cycles. Records are not necessarily independent cohorts. It is a broad, expandable catalogue, **not a claim that every existing dataset has been found**.
+**Last reviewed: 27 October 2026.** The catalogue contains **29 records**, including six NHANES cycles. Records are not necessarily independent cohorts. It is a broad, expandable catalogue, **not a claim that every existing dataset has been found**.
 
 This repository contains source links and metadata, not patient files. Download from the original providers. Public descriptions, open files, and unrestricted reuse are different things. File contents and download integrity have not yet been audited.
 
@@ -13,7 +13,9 @@ This repository contains source links and metadata, not patient files. Download 
 - **Plaque and clinical records:** two-part orthodontic plaque dataset (148 patients; augmented images included).
 - **Bone-loss landmarks:** perio-KPT; access is restricted.
 - **Population data:** NHANES periodontal cycles.
-- **Molecular research:** GEO gingival expression datasets and a salivary microbiome BioProject.
+- **Longitudinal care:** 883 patients and 11,842 maintenance visits in a newly published PhysioNet dataset (2026-10-05).
+- **Molecular research:** GEO gingival expression and single-cell datasets, a salivary BioProject, and a new 40-participant periodontal microbiome deposit.
+- **Controlled-access omics:** OMIX017754 is indexed but cannot currently be downloaded.
 
 Browse the tables below or download [CSV](data/datasets.csv) / [JSON](data/datasets.json). See [research-use guidance](docs/RESEARCH_GUIDE.md), [additional leads and gaps](docs/ADDITIONAL_LEADS.md), and [search and verification log](docs/SEARCH_LOG.md).
 
@@ -61,6 +63,7 @@ Browse the tables below or download [CSV](data/datasets.csv) / [JSON](data/datas
 | Manual versus ultrasonic nonsurgical periodontal treatment | 31 patients | Plaque; pockets; inflammation | Public download listed | CC BY 4.0 | [Record](https://data.mendeley.com/datasets/h7c5cn2drn/1) |
 | Ozonated water versus chlorhexidine adjunct | 50 patients | Plaque; pocket depth; gingival inflammation | Public download listed | Not established from retrieved excerpt | [Record](https://data.mendeley.com/datasets/8hjdg4x5x2/1) |
 | Adjunctive topical melatonin gel trial | Not established | Trial data; exact variables not established | Public download listed | CC BY 4.0 | [Record](https://data.mendeley.com/datasets/kt4jrtyc5y/1) |
+| Supportive Periodontal Therapy Clinical Examination Data v1.0.0 | 883 patients; 11,842 maintenance visits | Longitudinal probing depth, bleeding, recall intervals and smoking; patient-linked visits | Public files | CC BY 4.0 | [Record](https://physionet.org/content/supportive-periodontal-therapy/1.0.0/) |
 
 ## Host transcriptomics
 
@@ -69,19 +72,23 @@ Browse the tables below or download [CSV](data/datasets.csv) / [JSON](data/datas
 | GSE10334 | 247 samples from 90 patients | Healthy and diseased gingival sites; microarray | Public GEO download listed | NCBI/depositor terms; no CC license inferred | [Record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10334) |
 | GSE16134 | 310 arrays from 120 patients | Gingival expression and subgingival bacterial context | Public GEO download listed | NCBI/depositor terms; no CC license inferred | [Record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE16134) |
 | GSE23586 | 6 microarrays from 3 patients | Paired healthy and affected gingiva | Public GEO download listed | NCBI/depositor terms; no CC license inferred | [Record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE23586) |
+| GSE294615 | 3 scRNA-seq samples | Periodontal granulation tissue after treatment; UK study | Public NCBI GEO/SRA files listed | NCBI/depositor terms; no CC license inferred | [Record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE294615) |
+| GSE299738 | 3 scRNA-seq samples; associated 49-patient parent study | Granulation tissue and inflamed gingiva; 16S/histology in related parent cohort | Public NCBI GEO/SRA files listed | NCBI/depositor terms; no CC license inferred | [Record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299738) |
+| OMIX017754 | 6 biopsies: 3 healthy, 3 periodontitis | Human gingival single-cell atlas; neutrophils | **Files unavailable** (controlled-access registration pending) | Not stated | [Record](https://ngdc.cncb.ac.cn/omix/release/OMIX017754) |
 
 ## Microbiome
 
 | Dataset | Size reported | Contents | Access | Terms | Source |
 |---|---|---|---|---|---|
 | PRJNA601054 | Not established | Salivary microbiome; periodontitis; diabetes; metformin | Public BioProject record; runs not tested | NCBI/depositor terms; no CC license inferred | [Record](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA601054) |
+| GCF and subgingival plaque 16S in periodontitis and Alzheimer disease | 40 participants (19 vs 21) | Raw and processed 16S profiles described | Public download listed | CC BY 4.0 | [Record](https://data.mendeley.com/datasets/99t29dynkz/1) |
 
 ## Scope and maintenance
 
-Included: periodontal photographs, bone-loss imaging, ultrasound, plaque, gingival phenotype, clinical measurements, treatment outcomes, epidemiology, host transcriptomics and microbiome data. Restricted records are included for discovery and clearly marked.
+Included: periodontal photographs, bone-loss imaging, ultrasound, plaque, gingival phenotype, clinical measurements, longitudinal treatment outcomes, epidemiology, host transcriptomics, single-cell omics and microbiome data. The two granulation-tissue GEO accessions come from distinct UK and Hong Kong studies; each has only three scRNA-seq samples. Within the Hong Kong study, the 49-patient parent cohort and its 16S, histology and scRNA components must not be counted as independent cohorts. Restricted records are included for discovery and clearly marked.
 
 Apical-periodontitis datasets are primarily endodontic and are excluded from the core periodontal catalogue. General tooth-segmentation or implant-type datasets are supporting resources, not periodontal disease benchmarks.
 
 Missing licenses are recorded as unknown, never assumed to be CC BY. Follow the original dataset citation, version and access conditions. Do not upload private clinical data here.
 
-Contributions: follow [CONTRIBUTING.md](CONTRIBUTING.md). Updates require source review; no automatic discovery or weekly update service has been enabled by this repository.
+Contributions: follow [CONTRIBUTING.md](CONTRIBUTING.md). Updates require source review; periodic curator checks and external monitoring may update the catalogue, but neither instant nor exhaustive discovery is guaranteed.
