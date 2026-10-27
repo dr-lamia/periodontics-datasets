@@ -2,7 +2,7 @@
 
 A curated catalogue of publicly discoverable datasets for periodontal research and AI.
 
-**Last reviewed: 27 October 2026.** The catalogue contains **29 records**, including six NHANES cycles. Records are not necessarily independent cohorts. It is a broad, expandable catalogue, **not a claim that every existing dataset has been found**.
+**Last reviewed: 27 October 2026.** The catalogue contains **30 records**, including six NHANES cycles. Records are not necessarily independent cohorts. It is a broad, expandable catalogue, **not a claim that every existing dataset has been found**.
 
 This repository contains source links and metadata, not patient files. Download from the original providers. Public descriptions, open files, and unrestricted reuse are different things. File contents and download integrity have not yet been audited.
 
@@ -16,6 +16,7 @@ This repository contains source links and metadata, not patient files. Download 
 - **Longitudinal care:** 883 patients and 11,842 maintenance visits in a newly published PhysioNet dataset (2026-10-05).
 - **Molecular research:** GEO gingival expression and single-cell datasets, a salivary BioProject, and a new 40-participant periodontal microbiome deposit.
 - **Controlled-access omics:** OMIX017754 is indexed but cannot currently be downloaded.
+- **Periodontal tissue mechanobiology:** a Dryad experimental dataset provides figure-level CSVs for gingival stiffness, cytokines and fibroblast responses; it is not a patient-level diagnostic cohort.
 
 Browse the tables below or download [CSV](data/datasets.csv) / [JSON](data/datasets.json). See [research-use guidance](docs/RESEARCH_GUIDE.md), [additional leads and gaps](docs/ADDITIONAL_LEADS.md), and [search and verification log](docs/SEARCH_LOG.md).
 
@@ -83,9 +84,15 @@ Browse the tables below or download [CSV](data/datasets.csv) / [JSON](data/datas
 | PRJNA601054 | Not established | Salivary microbiome; periodontitis; diabetes; metformin | Public BioProject record; runs not tested | NCBI/depositor terms; no CC license inferred | [Record](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA601054) |
 | GCF and subgingival plaque 16S in periodontitis and Alzheimer disease | 40 participants (19 vs 21) | Raw and processed 16S profiles described | Public download listed | CC BY 4.0 | [Record](https://data.mendeley.com/datasets/99t29dynkz/1) |
 
+## Experimental periodontal biology
+
+| Dataset | Size reported | Contents | Access | Terms | Source |
+|---|---|---|---|---|---|
+| Matrix stiffness governs fibroblasts' regulation of gingival immune homeostasis | 318.63 KB; figure-level CSVs, not a patient cohort | Gingival collagen, ECM stiffness, fibroblast cytokines and transcriptomic summaries, hydrogel and explant experiments | Public Dryad files | Dryad standard CC0 terms; verify file-level rights | [Record](https://datadryad.org/dataset/doi:10.5061/dryad.xksn02vw6) |
+
 ## Scope and maintenance
 
-Included: periodontal photographs, bone-loss imaging, ultrasound, plaque, gingival phenotype, clinical measurements, longitudinal treatment outcomes, epidemiology, host transcriptomics, single-cell omics and microbiome data. The two granulation-tissue GEO accessions come from distinct UK and Hong Kong studies; each has only three scRNA-seq samples. Within the Hong Kong study, the 49-patient parent cohort and its 16S, histology and scRNA components must not be counted as independent cohorts. Restricted records are included for discovery and clearly marked.
+Included: periodontal photographs, bone-loss imaging, ultrasound, plaque, gingival phenotype, clinical measurements, longitudinal treatment outcomes, epidemiology, host transcriptomics, single-cell omics, microbiome data and experimental gingival mechanobiology. The two granulation-tissue GEO accessions come from distinct UK and Hong Kong studies; each has only three scRNA-seq samples. Within the Hong Kong study, the 49-patient parent cohort and its 16S, histology and scRNA components must not be counted as independent cohorts. Restricted records are included for discovery and clearly marked.
 
 Apical-periodontitis datasets are primarily endodontic and are excluded from the core periodontal catalogue. General tooth-segmentation or implant-type datasets are supporting resources, not periodontal disease benchmarks.
 

@@ -1,6 +1,6 @@
 # Additional leads, related resources and gaps
 
-These entries are **not counted in the 29-record catalogue**. Some are supplementary-only, unconfirmed releases, general-purpose resources or paper-level leads. Do not treat them as ready-to-train datasets.
+These entries are **not counted in the 30-record catalogue**. Some are supplementary-only, unconfirmed releases, general-purpose resources or paper-level leads. Do not treat them as ready-to-train datasets.
 
 | Lead | Source | What remains to verify |
 |---|---|---|
@@ -25,6 +25,7 @@ These entries are **not counted in the 29-record catalogue**. Some are supplemen
 | Spatially resolved single-cell atlas of periodontal epithelium (2026) | https://pubmed.ncbi.nlm.nih.gov/42805970/ | Paper reports spatial transcriptomics (4 healthy, 6 periodontitis) and scRNA-seq (2 healthy, 6 periodontitis); primary data accession and licence not yet established; **publication lead only** |
 | Ferroptosis-driven periodontitis single-cell study (2026) | https://pubmed.ncbi.nlm.nih.gov/42780883/ | Identify primary accession, independently generated versus reused cells, sample IDs, and access; **publication lead only** |
 | DentalOPG-1550 v2 (cross-specialty panoramic imaging) | https://data.mendeley.com/datasets/rtt726b26d/2 | 1,550 panoramics and only 38 periodontitis-labeled objects. Included in the general dental imaging catalogue, **not** counted as an independent periodontal-disease cohort in this dedicated list; determine diagnostic label granularity and patient overlap before periodontal benchmarking |
+| Periodontal-Reasoning-40k (Hugging Face) | https://huggingface.co/datasets/Wildstash/periodontal-reasoning-40k | 40,000 labelled prompt/completion rows, apparently a synthetic/preference-training resource; provenance, clinical correctness and independence not verified. Do not treat as real patient data or validated diagnostic benchmark |
 | InReDD/BoneLoss-PAN769 annotation release comparison | https://physionet.org/content/inredd-pan924-ext-boneloss-769/1.0.0/ | The 2026-09-17 PhysioNet extension reports 21,047 annotations, whereas the Zenodo v2 record reports 21,064; both derive from the same 769-image InReDD cohort. Reconcile audit versions; do **not** count as separate independent datasets |
 
 ## Deliberate exclusions

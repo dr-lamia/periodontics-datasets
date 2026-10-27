@@ -404,5 +404,19 @@
     "related_url": "https://doi.org/10.1186/s12967-026-06715-1",
     "checked_on": "2026-10-27",
     "verification": "Primary NGDC OMIX metadata, 6 files and explicit unavailable status verified; related DOI should be checked before citing; files inaccessible"
+  },
+  {
+    "id": "EXP01",
+    "name": "Matrix stiffness governs fibroblasts' regulation of gingival immune homeostasis",
+    "category": "Experimental periodontal biology",
+    "size": "318.63 KB of figure-level CSVs; number of independent donors not established in catalogue",
+    "labels": "Gingival ECM collagen organization; stiffness/rheology; gingival fibroblast cytokines and transcriptomic summaries; ex-vivo explants and hydrogel experiments",
+    "access": "Public Dryad CSV downloads listed",
+    "license": "Dryad standard CC0 terms; individual dataset page does not separately display licence",
+    "source_url": "https://datadryad.org/dataset/doi:10.5061/dryad.xksn02vw6",
+    "notes": "Dryad published 2026-03-16; University of Pennsylvania; DOI 10.5061/dryad.xksn02vw6. This is figure-level experimental data with human donor tissues, cell culture and ex-vivo explants, NOT a patient-level clinical periodontal diagnosis dataset. Multiple files and biological replicates are NOT independent patient cohorts. Provider README explains measurements and group labels. Consult Dryad CC0 terms and source publication for reuse.",
+    "related_url": "https://doi.org/10.5061/dryad.xksn02vw6",
+    "checked_on": "2026-10-27",
+    "verification": "Primary Dryad file listing and README inspected; standard CC0 terms checked; files not downloaded or donor counts audited"
   }
 ]
