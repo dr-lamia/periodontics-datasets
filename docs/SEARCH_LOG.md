@@ -48,3 +48,7 @@ Checks: schema preserved; CSV and JSON record IDs/fields compared; README counts
 - [Periodontal-Reasoning-40k](https://huggingface.co/datasets/Wildstash/periodontal-reasoning-40k) added to unconfirmed leads only: the 40k preference-labelled text prompts may contain intentionally incorrect completions; clinical provenance and validation are not established. Do not use as patient ground truth.
 
 After this additional discovery the dedicated catalogue has 30 records, including experimental datasets and restricted records. The same 883-patient SPT cohort remains one dataset regardless of its appearance in the general catalogue.
+
+### Citation correction (27 October 2026)
+
+OMIX017754 associated paper DOI corrected and verified against [PubMed PMID 42552554](https://pubmed.ncbi.nlm.nih.gov/42552554/): [10.1186/s12967-026-08623-y](https://doi.org/10.1186/s12967-026-08623-y). An earlier unverified DOI was replaced; the OMIX access status remains unavailable.

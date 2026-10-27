@@ -401,9 +401,9 @@
     "license": "Not stated on source page checked; no reuse licence inferred",
     "source_url": "https://ngdc.cncb.ac.cn/omix/release/OMIX017754",
     "notes": "Released 2026-06-17; BioProject PRJCA060690; Nanfang Hospital, Southern Medical University. The primary OMIX record explicitly states files cannot be downloaded until registration in MOST human genetic resource platform. Do not count as an accessible training dataset or imply approved use.",
-    "related_url": "https://doi.org/10.1186/s12967-026-06715-1",
+    "related_url": "https://doi.org/10.1186/s12967-026-08623-y",
     "checked_on": "2026-10-27",
-    "verification": "Primary NGDC OMIX metadata, 6 files and explicit unavailable status verified; related DOI should be checked before citing; files inaccessible"
+    "verification": "Primary NGDC OMIX metadata and unavailable files verified; associated paper DOI cross-checked against PubMed PMID 42552554; files inaccessible"
   },
   {
     "id": "EXP01",
