@@ -38,3 +38,9 @@ These entries are **not counted in the 30-record catalogue**. Some are supplemen
 ## Coverage gaps
 
 Continue searching for paired pre/post periodontal surgery photographs, recession segmentation, peri-implantitis labels, furcation-specific datasets, periodontal CBCT annotations, histology, single-cell/spatial omics, proteomics/metabolomics and longitudinal clinical cohorts. No exhaustive coverage claim is made.
+
+## 3 November 2026 — follow-up checks
+
+- [Oral Health Care analytical dataset (Mendeley v1)](https://data.mendeley.com/datasets/mbznptkr26/1): published 13 October 2026, CC BY 4.0 indicated, but description contains only “Oral Health Care Analytical Dataset”; periodontal scope, samples, labels and downloadable file contents are **not confirmed**. Do not promote without inspecting the files.
+- [Periodontal systemic-connections bibliometric corpus (Zenodo)](https://zenodo.org/records/23362563): open research bibliography and code over 3,937 Scopus publications; not a new clinical or molecular patient cohort. Already in general discovery feed; do not count as periodontal training dataset.
+- [Intraoral periapical radiographs with 916 images (Mendeley)](https://data.mendeley.com/datasets/znby8r7bvc/1): periapical lesion, caries and restoration segmentation. Despite the category “Periapical Periodontitis”, **not** a verified gingivitis or periodontal bone-loss dataset. Curated in general dental imaging only.
