@@ -2,7 +2,7 @@
 
 A curated catalogue of publicly discoverable datasets for periodontal research and AI.
 
-**Last reviewed: 27 October 2026.** The catalogue contains **30 records**, including six NHANES cycles. Records are not necessarily independent cohorts. It is a broad, expandable catalogue, **not a claim that every existing dataset has been found**.
+**Last reviewed: 3 November 2026.** The catalogue contains **31 records**, including six NHANES cycles. Records are not necessarily independent cohorts. It is a broad, expandable catalogue, **not a claim that every existing dataset has been found**.
 
 This repository contains source links and metadata, not patient files. Download from the original providers. Public descriptions, open files, and unrestricted reuse are different things. File contents and download integrity have not yet been audited.
 
@@ -99,3 +99,7 @@ Apical-periodontitis datasets are primarily endodontic and are excluded from the
 Missing licenses are recorded as unknown, never assumed to be CC BY. Follow the original dataset citation, version and access conditions. Do not upload private clinical data here.
 
 Contributions: follow [CONTRIBUTING.md](CONTRIBUTING.md). Updates require source review; periodic curator checks and external monitoring may update the catalogue, but neither instant nor exhaustive discovery is guaranteed.
+
+### 3 November 2026 addition — experimental periodontal omics support data
+
+- **Mouse gingival single-cell atlas underlying experimental measurements** ([Dryad DOI](https://doi.org/10.5061/dryad.hqbzkh1pb); [Zenodo record mirror](https://zenodo.org/records/10225488)): 2023 study-associated 27 kB XLSX workbook and README for a mouse periodontitis model. This is **not** a confirmed downloadable single-cell expression matrix, human patient cohort, or public microCT image set. Source licensing and overlap with any GEO/SRA sequencing release require further verification. Listed as an experimental-data record rather than an independent clinical cohort.
