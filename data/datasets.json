@@ -418,5 +418,19 @@
     "related_url": "https://doi.org/10.5061/dryad.xksn02vw6",
     "checked_on": "2026-10-27",
     "verification": "Primary Dryad file listing and README inspected; standard CC0 terms checked; files not downloaded or donor counts audited"
+  },
+  {
+    "id": "OMI07",
+    "name": "Mouse gingival single-cell atlas study: underlying experimental measurements (Dryad)",
+    "category": "Molecular and omics",
+    "size": "One 27 kB XLSX experimental data workbook; mouse model sample counts described in methods, not an independently validated scRNA-seq cell matrix",
+    "labels": "Mouse ligature-induced periodontitis; gingival tissue; immune fibroblast biology; microCT bone loss and related experimental outcomes",
+    "access": "Public workbook download listed",
+    "license": "Not independently confirmed from primary record; inspect Dryad terms before reuse",
+    "source_url": "https://doi.org/10.5061/dryad.hqbzkh1pb",
+    "notes": "Previously missed 2023 deposit by Kondo et al. Primary record mirrored on Zenodo https://zenodo.org/records/10225488. Only eLife_raw_data_11.14_TK.xlsx and README.md listed (30.8 kB combined); NOT a downloadable single-cell raw count matrix, NOT a human cohort, and no independent image volumes confirmed. Avoid duplicating any related GEO/SRA atlas accession.",
+    "related_url": "https://zenodo.org/records/10225488",
+    "checked_on": "2026-11-03",
+    "verification": "Primary metadata and file listing verified; workbook not downloaded; exact licensing and linkage to any raw sequencing accession need verification"
   }
 ]
