@@ -103,3 +103,7 @@ Contributions: follow [CONTRIBUTING.md](CONTRIBUTING.md). Updates require source
 ### 3 November 2026 addition — experimental periodontal omics support data
 
 - **Mouse gingival single-cell atlas underlying experimental measurements** ([Dryad DOI](https://doi.org/10.5061/dryad.hqbzkh1pb); [Zenodo record mirror](https://zenodo.org/records/10225488)): 2023 study-associated 27 kB XLSX workbook and README for a mouse periodontitis model. This is **not** a confirmed downloadable single-cell expression matrix, human patient cohort, or public microCT image set. Source licensing and overlap with any GEO/SRA sequencing release require further verification. Listed as an experimental-data record rather than an independent clinical cohort.
+
+### 10 November 2026 — therapy-resistant periodontitis multi-omics
+
+- **Zenodo v2 [10.5281/zenodo.21648577](https://zenodo.org/records/21648577)**: added OMI08, four openly listed XLSX files (58.1 MB) covering gene-expression FPKM, metabolite intensities, ELISA and qPCR in therapy-resistant periodontitis. The record is source-checked, but patient/donor counts and patient-level identifiers are **unverified**; its displayed licence field is blank, so download availability is not treated as unrestricted reuse. The earlier version is not a separate cohort. **Dedicated catalogue: 32 metadata records** (not 32 independent patient cohorts).
