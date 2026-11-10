@@ -432,5 +432,19 @@
     "related_url": "https://zenodo.org/records/10225488",
     "checked_on": "2026-11-03",
     "verification": "Primary metadata and file listing verified; workbook not downloaded; exact licensing and linkage to any raw sequencing accession need verification"
+  },
+  {
+    "id": "OMI08",
+    "name": "Therapy-resistant periodontitis multi-omics: NF-kappaB immunometabolic reprogramming (v2)",
+    "category": "Molecular and omics",
+    "size": "Four XLSX files; 58.1 MB total; patient/donor count not established",
+    "labels": "Gene expression FPKM matrix; metabolite intensities; ELISA and qPCR measurements; therapy-resistant periodontitis",
+    "access": "Public Zenodo files listed; downloads not independently audited",
+    "license": "License field blank in primary Zenodo page; reuse permission not established",
+    "source_url": "https://zenodo.org/records/21648577",
+    "notes": "Zenodo DOI 10.5281/zenodo.21648577; v2 published 2026-07-28. Four files: Gene_fpkm_raw.xlsx 51.7 MB, Meta_intensity_raw.xlsx 6.4 MB, ELISA.xlsx 12.5 kB, qPCR.xlsx 14.1 kB. Experimental multi-omics; not a validated patient-level clinical cohort. Donor identifiers, group definitions, treatment-response endpoints and overlap with other studies require file-level inspection. Do not treat v1 as independent dataset.",
+    "related_url": "https://doi.org/10.5281/zenodo.21648577",
+    "checked_on": "2026-11-10",
+    "verification": "Primary Zenodo v2 file list, DOI and publication date verified 2026-11-10; exact license and participant-level metadata unresolved; files not downloaded"
   }
 ]
